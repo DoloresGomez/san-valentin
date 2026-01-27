@@ -6,10 +6,17 @@
     <title>La Gran Pregunta</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body class="newspaper-page">
+<body class="newspaper-page question-page">
     <div class="newspaper">
         <!-- SECCIÓN DE LA PREGUNTA -->
         <div id="seccionPregunta">
+            <!-- Decoración superior -->
+            <div class="question-decoration-top">
+                <span class="heart-float">💕</span>
+                <span class="heart-float">💖</span>
+                <span class="heart-float">💕</span>
+            </div>
+
             <div class="newspaper-header">
                 <div class="cupids">
                     <span>💘</span>
@@ -19,44 +26,67 @@
 
             <h1 class="section-title">La Gran Pregunta</h1>
 
-            <p class="intro-text">
-                Entonces, aquí estamos.<br>
-                Five razones sólidas.<br>
-                Señales innegables.<br>
-                Cupones tentadores.<br>
-                Y una misión especial: <span class="cursive-big">hacerte sonreír.</span>
-            </p>
+            <div class="intro-box">
+                <p class="intro-text">
+                    Entonces, aquí estamos.<br>
+                    <span class="highlight">Five razones sólidas.</span><br>
+                    <span class="highlight">Señales innegables.</span><br>
+                    <span class="highlight">Cupones tentadores.</span><br>
+                    Y una misión especial: <span class="cursive-big">hacerte sonreír.</span>
+                </p>
+            </div>
 
-            <h2 class="final-question">¿Quieres ser mi<br><span class="cursive">San Valentín?</span></h2>
+            <div class="question-box">
+                <div class="question-hearts">
+                    <span>💝</span>
+                    <span>💗</span>
+                    <span>💝</span>
+                </div>
+                <h2 class="final-question">¿Quieres ser mi<br><span class="cursive">San Valentín?</span></h2>
+                <div class="question-hearts">
+                    <span>💗</span>
+                    <span>💝</span>
+                    <span>💗</span>
+                </div>
+            </div>
 
-            <p class="choose-text">Elige tu respuesta:</p>
+            <p class="choose-text">✨ Elige tu respuesta ✨</p>
 
             <div class="answer-buttons">
                 <button type="button" class="answer-btn yes-btn" id="botonSi">
-                    Sí 💕
+                    <span class="btn-icon">💕</span> Sí <span class="btn-icon">💕</span>
                 </button>
-                <button type="button" class="answer-btn" id="noBtn">No</button>
+                <button type="button" class="answer-btn no-btn" id="noBtn">
+                    <span class="btn-icon">💔</span> No <span class="btn-icon">💔</span>
+                </button>
+            </div>
+
+            <!-- Decoración inferior -->
+            <div class="question-decoration-bottom">
+                <span class="sparkle">✨</span>
+                <span class="sparkle">✨</span>
+                <span class="sparkle">✨</span>
             </div>
         </div>
 
         <!-- SECCIÓN DE CONFIRMACIÓN (oculta al inicio) -->
         <div id="seccionConfirmacion" style="display: none;">
             <div class="confirmation-content">
-                <h1 class="confirm-title">Confirmado<br>oficialmente:</h1>
+                <h1 class="confirm-title">💕 Confirmado 💕<br>oficialmente:</h1>
                 
                 <div class="heart-shape">
                     <div class="heart-content">
                         <div class="heart-decoration">✨💕✨</div>
                         <p class="confirm-message">Eres mi San<br>Valentín.</p>
                         <div class="locket">
-                            <div class="locket-letter">A</div>
+                            <div class="locket-letter">D</div>
                             <div class="locket-letter">J</div>
                         </div>
                     </div>
                 </div>
 
                 <p class="thanks-message">
-                    Gracias por decir que sí.<br>
+                    ✨ Gracias por decir que sí ✨<br>
                     Prepárate para un día bonito,<br>
                     sonrisas inevitables<br>
                     y recuerdos que se van a quedar.
