@@ -349,12 +349,12 @@ body {
     
     .envelope-back .te-quiero {
         font-size: 2em;
-        top: 38%;
+        top: 40%;
     }
     
     .envelope-back .heart-decoration {
         font-size: 30px;
-        top: 30%;
+        top: 32%;
         left: 15%;
     }
     
@@ -362,7 +362,7 @@ body {
         width: 55px;
         height: 55px;
         font-size: 30px;
-        bottom: 30px;
+        bottom: 35px;
     }
     
     .envelope-back .postage-stamp {
@@ -387,6 +387,20 @@ body {
         top: 22px;
     }
     
+    .postmark-text {
+        font-size: 8px;
+    }
+    
+    .postmark-date {
+        font-size: 7px;
+    }
+    
+    .envelope-back::before,
+    .envelope-back::after {
+        font-size: 14px;
+        letter-spacing: 10px;
+    }
+    
     .envelope-flap {
         bottom: 160px;
         border-width: 80px 180px 0 180px;
@@ -400,6 +414,34 @@ body {
     
     .letter-content.pull-out {
         bottom: 180px;
+    }
+    
+    .surprise-text {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    
+    .instruction-text {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+    
+    .heart {
+        font-size: 50px;
+        margin: 12px 0;
+    }
+    
+    .sender-info {
+        font-size: 11px;
+        left: 20px;
+        right: 20px;
+        bottom: 15px;
+    }
+    
+    .stamp {
+        font-size: 30px;
+        top: 10px;
+        right: 10px;
     }
 }
 
